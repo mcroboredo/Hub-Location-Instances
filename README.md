@@ -1,19 +1,15 @@
 ## Data Sets For Hub Location Problems
 
-This repository contains three different data sets for hub location problems:
+This repository contains the following data sets for hub location problems used in the paper "A branch-and-Benders-cut approach for the r-allocation p-hub maximal covering problem with binary and partial coverage criteria": CAB, AP25, AP50 and AP75
 
-* CAB
-* TR
-* AP
+CAB data set follows the following format:
 
-The data sets CAB, TR and AP were proposed by [1], [2] and [3]. The description of the files can be found here.
+Number of vertices
+Flow matrix
+Distance matrix
 
-***
-## References
+AP25, AP50 and AP50 data sets follow the following format:
 
-
-[1] O'kelly, M. E. (1987). A quadratic integer program for the location of interacting hub facilities. European journal of operational research, 32(3), 393-404.
-
-[2] Tan, P. Z., & Kara, B. Y. (2007). A hub covering model for cargo delivery systems. Networks: An International Journal, 49(1), 28-39.
-
-[3] Ernst, A. T., & Krishnamoorthy, M. (1996). Efficient algorithms for the uncapacitated single allocation p-hub median problem. Location science, 4(3), 139-154.
+Number of vertices
+Vertices coordinates
+Flow matrix
